@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D122B4282AA03482004CE589 /* 02.DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122B4272AA03482004CE589 /* 02.DownloadImageAsync.swift */; };
 		D1A702D72A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A702D62A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift */; };
 		D1A702D92A9D9ED000D9930A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A702D82A9D9ED000D9930A /* ContentView.swift */; };
 		D1A702DB2A9D9ED100D9930A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A702DA2A9D9ED100D9930A /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D122B4272AA03482004CE589 /* 02.DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02.DownloadImageAsync.swift; sourceTree = "<group>"; };
 		D1A702D32A9D9ED000D9930A /* SwiftConcurrencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A702D62A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcampApp.swift; sourceTree = "<group>"; };
 		D1A702D82A9D9ED000D9930A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				D1A702D62A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift */,
 				D1A702D82A9D9ED000D9930A /* ContentView.swift */,
 				D1A702E42A9DA10600D9930A /* 01.DoCatchTryThrowsBootcamp.swift */,
+				D122B4272AA03482004CE589 /* 02.DownloadImageAsync.swift */,
 				D1A702DA2A9D9ED100D9930A /* Assets.xcassets */,
 				D1A702DC2A9D9ED100D9930A /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				D1A702E52A9DA10600D9930A /* 01.DoCatchTryThrowsBootcamp.swift in Sources */,
 				D1A702D92A9D9ED000D9930A /* ContentView.swift in Sources */,
 				D1A702D72A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift in Sources */,
+				D122B4282AA03482004CE589 /* 02.DownloadImageAsync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
