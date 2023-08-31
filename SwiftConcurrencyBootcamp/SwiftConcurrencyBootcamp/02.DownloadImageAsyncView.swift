@@ -75,7 +75,7 @@ class DownloadImageAsyncViewModel: ObservableObject {
     }
 }
 
-struct DownloadImageAsync: View {
+struct DownloadImageAsyncView: View {
     @StateObject private var viewModel = DownloadImageAsyncViewModel()
     
     var body: some View {
@@ -95,8 +95,8 @@ struct DownloadImageAsync: View {
     }
 }
 
-struct DownloadImageAsync_Previews: PreviewProvider {
+struct DownloadImageAsyncView_Previews: PreviewProvider {
     static var previews: some View {
-        DownloadImageAsync()
+        DownloadImageAsyncView()
     }
 }

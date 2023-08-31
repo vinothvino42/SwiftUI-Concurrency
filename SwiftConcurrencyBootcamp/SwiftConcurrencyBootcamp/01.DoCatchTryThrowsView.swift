@@ -84,7 +84,7 @@ class DoCatchTryThrowsBootcampViewModel: ObservableObject {
     }
 }
 
-struct DoCatchTryThrowsBootcamp: View {
+struct DoCatchTryThrowsView: View {
     @StateObject private var viewModel = DoCatchTryThrowsBootcampViewModel()
     
     var body: some View {
@@ -97,8 +97,8 @@ struct DoCatchTryThrowsBootcamp: View {
     }
 }
 
-struct DoCatchTryThrowsBootcamp_Previews: PreviewProvider {
+struct DoCatchTryThrowsView_Previews: PreviewProvider {
     static var previews: some View {
-        DoCatchTryThrowsBootcamp()
+        DoCatchTryThrowsView()
     }
 }

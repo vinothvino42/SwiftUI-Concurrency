@@ -57,7 +57,7 @@ class AsyncAwaitViewModel: ObservableObject {
     }
 }
 
-struct AsyncAwait: View {
+struct AsyncAwaitView: View {
     @StateObject private var viewModel = AsyncAwaitViewModel()
     
     var body: some View {
@@ -80,8 +80,8 @@ struct AsyncAwait: View {
     }
 }
 
-struct AsyncAwait_Previews: PreviewProvider {
+struct AsyncAwaitView_Previews: PreviewProvider {
     static var previews: some View {
-        AsyncAwait()
+        AsyncAwaitView()
     }
 }
