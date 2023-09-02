@@ -10,6 +10,12 @@
 		D122B4282AA03482004CE589 /* 02.DownloadImageAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122B4272AA03482004CE589 /* 02.DownloadImageAsyncView.swift */; };
 		D122B42A2AA03FEA004CE589 /* 03.AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122B4292AA03FEA004CE589 /* 03.AsyncAwaitView.swift */; };
 		D17752182AA30003004CAC90 /* 08.ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17752172AA30003004CAC90 /* 08.ActorView.swift */; };
+		D177521A2AA30395004CAC90 /* 09.GlobalActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17752192AA30395004CAC90 /* 09.GlobalActorView.swift */; };
+		D177521C2AA30F79004CAC90 /* 10.SendableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D177521B2AA30F79004CAC90 /* 10.SendableView.swift */; };
+		D19D99FA2AA35EA800CD2EC7 /* 11.AsyncPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D99F92AA35EA800CD2EC7 /* 11.AsyncPublisherView.swift */; };
+		D19D99FC2AA36DB400CD2EC7 /* 12.StrongSelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D99FB2AA36DB400CD2EC7 /* 12.StrongSelfView.swift */; };
+		D19D99FE2AA3726700CD2EC7 /* 13.MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D99FD2AA3726700CD2EC7 /* 13.MVVMView.swift */; };
+		D19D9A002AA38A9600CD2EC7 /* 14.RefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D99FF2AA38A9600CD2EC7 /* 14.RefreshableView.swift */; };
 		D1A702D72A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A702D62A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift */; };
 		D1A702D92A9D9ED000D9930A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A702D82A9D9ED000D9930A /* ContentView.swift */; };
 		D1A702DB2A9D9ED100D9930A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A702DA2A9D9ED100D9930A /* Assets.xcassets */; };
@@ -25,6 +31,12 @@
 		D122B4272AA03482004CE589 /* 02.DownloadImageAsyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02.DownloadImageAsyncView.swift; sourceTree = "<group>"; };
 		D122B4292AA03FEA004CE589 /* 03.AsyncAwaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03.AsyncAwaitView.swift; sourceTree = "<group>"; };
 		D17752172AA30003004CAC90 /* 08.ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 08.ActorView.swift; sourceTree = "<group>"; };
+		D17752192AA30395004CAC90 /* 09.GlobalActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 09.GlobalActorView.swift; sourceTree = "<group>"; };
+		D177521B2AA30F79004CAC90 /* 10.SendableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10.SendableView.swift; sourceTree = "<group>"; };
+		D19D99F92AA35EA800CD2EC7 /* 11.AsyncPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11.AsyncPublisherView.swift; sourceTree = "<group>"; };
+		D19D99FB2AA36DB400CD2EC7 /* 12.StrongSelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12.StrongSelfView.swift; sourceTree = "<group>"; };
+		D19D99FD2AA3726700CD2EC7 /* 13.MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13.MVVMView.swift; sourceTree = "<group>"; };
+		D19D99FF2AA38A9600CD2EC7 /* 14.RefreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14.RefreshableView.swift; sourceTree = "<group>"; };
 		D1A702D32A9D9ED000D9930A /* SwiftConcurrencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A702D62A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcampApp.swift; sourceTree = "<group>"; };
 		D1A702D82A9D9ED000D9930A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +89,12 @@
 				D1EE896F2AA18BA1008C3A42 /* 06.TaskGroupView.swift */,
 				D1EE89712AA1949E008C3A42 /* 07.CheckedContinuationView.swift */,
 				D17752172AA30003004CAC90 /* 08.ActorView.swift */,
+				D17752192AA30395004CAC90 /* 09.GlobalActorView.swift */,
+				D177521B2AA30F79004CAC90 /* 10.SendableView.swift */,
+				D19D99F92AA35EA800CD2EC7 /* 11.AsyncPublisherView.swift */,
+				D19D99FB2AA36DB400CD2EC7 /* 12.StrongSelfView.swift */,
+				D19D99FD2AA3726700CD2EC7 /* 13.MVVMView.swift */,
+				D19D99FF2AA38A9600CD2EC7 /* 14.RefreshableView.swift */,
 				D1A702DA2A9D9ED100D9930A /* Assets.xcassets */,
 				D1A702DC2A9D9ED100D9930A /* Preview Content */,
 			);
@@ -162,14 +180,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1EE89702AA18BA1008C3A42 /* 06.TaskGroupView.swift in Sources */,
+				D19D99FA2AA35EA800CD2EC7 /* 11.AsyncPublisherView.swift in Sources */,
 				D1A702E52A9DA10600D9930A /* 01.DoCatchTryThrowsView.swift in Sources */,
+				D19D99FC2AA36DB400CD2EC7 /* 12.StrongSelfView.swift in Sources */,
+				D19D9A002AA38A9600CD2EC7 /* 14.RefreshableView.swift in Sources */,
+				D19D99FE2AA3726700CD2EC7 /* 13.MVVMView.swift in Sources */,
 				D1EE89722AA1949E008C3A42 /* 07.CheckedContinuationView.swift in Sources */,
 				D1A702D92A9D9ED000D9930A /* ContentView.swift in Sources */,
 				D1C955512AA10C3B008C3014 /* 05.AsyncLetView.swift in Sources */,
+				D177521C2AA30F79004CAC90 /* 10.SendableView.swift in Sources */,
 				D122B42A2AA03FEA004CE589 /* 03.AsyncAwaitView.swift in Sources */,
 				D1C9554F2AA10257008C3014 /* 04.TaskView.swift in Sources */,
 				D17752182AA30003004CAC90 /* 08.ActorView.swift in Sources */,
 				D1A702D72A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift in Sources */,
+				D177521A2AA30395004CAC90 /* 09.GlobalActorView.swift in Sources */,
 				D122B4282AA03482004CE589 /* 02.DownloadImageAsyncView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
