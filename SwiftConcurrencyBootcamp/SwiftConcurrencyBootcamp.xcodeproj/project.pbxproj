@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D122B4282AA03482004CE589 /* 02.DownloadImageAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122B4272AA03482004CE589 /* 02.DownloadImageAsyncView.swift */; };
 		D122B42A2AA03FEA004CE589 /* 03.AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122B4292AA03FEA004CE589 /* 03.AsyncAwaitView.swift */; };
+		D17752182AA30003004CAC90 /* 08.ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17752172AA30003004CAC90 /* 08.ActorView.swift */; };
 		D1A702D72A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A702D62A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift */; };
 		D1A702D92A9D9ED000D9930A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A702D82A9D9ED000D9930A /* ContentView.swift */; };
 		D1A702DB2A9D9ED100D9930A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A702DA2A9D9ED100D9930A /* Assets.xcassets */; };
@@ -16,11 +17,14 @@
 		D1A702E52A9DA10600D9930A /* 01.DoCatchTryThrowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A702E42A9DA10600D9930A /* 01.DoCatchTryThrowsView.swift */; };
 		D1C9554F2AA10257008C3014 /* 04.TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9554E2AA10257008C3014 /* 04.TaskView.swift */; };
 		D1C955512AA10C3B008C3014 /* 05.AsyncLetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C955502AA10C3B008C3014 /* 05.AsyncLetView.swift */; };
+		D1EE89702AA18BA1008C3A42 /* 06.TaskGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE896F2AA18BA1008C3A42 /* 06.TaskGroupView.swift */; };
+		D1EE89722AA1949E008C3A42 /* 07.CheckedContinuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE89712AA1949E008C3A42 /* 07.CheckedContinuationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D122B4272AA03482004CE589 /* 02.DownloadImageAsyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02.DownloadImageAsyncView.swift; sourceTree = "<group>"; };
 		D122B4292AA03FEA004CE589 /* 03.AsyncAwaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03.AsyncAwaitView.swift; sourceTree = "<group>"; };
+		D17752172AA30003004CAC90 /* 08.ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 08.ActorView.swift; sourceTree = "<group>"; };
 		D1A702D32A9D9ED000D9930A /* SwiftConcurrencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A702D62A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcampApp.swift; sourceTree = "<group>"; };
 		D1A702D82A9D9ED000D9930A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +33,8 @@
 		D1A702E42A9DA10600D9930A /* 01.DoCatchTryThrowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01.DoCatchTryThrowsView.swift; sourceTree = "<group>"; };
 		D1C9554E2AA10257008C3014 /* 04.TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 04.TaskView.swift; sourceTree = "<group>"; };
 		D1C955502AA10C3B008C3014 /* 05.AsyncLetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 05.AsyncLetView.swift; sourceTree = "<group>"; };
+		D1EE896F2AA18BA1008C3A42 /* 06.TaskGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 06.TaskGroupView.swift; sourceTree = "<group>"; };
+		D1EE89712AA1949E008C3A42 /* 07.CheckedContinuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 07.CheckedContinuationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 				D122B4292AA03FEA004CE589 /* 03.AsyncAwaitView.swift */,
 				D1C9554E2AA10257008C3014 /* 04.TaskView.swift */,
 				D1C955502AA10C3B008C3014 /* 05.AsyncLetView.swift */,
+				D1EE896F2AA18BA1008C3A42 /* 06.TaskGroupView.swift */,
+				D1EE89712AA1949E008C3A42 /* 07.CheckedContinuationView.swift */,
+				D17752172AA30003004CAC90 /* 08.ActorView.swift */,
 				D1A702DA2A9D9ED100D9930A /* Assets.xcassets */,
 				D1A702DC2A9D9ED100D9930A /* Preview Content */,
 			);
@@ -152,11 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EE89702AA18BA1008C3A42 /* 06.TaskGroupView.swift in Sources */,
 				D1A702E52A9DA10600D9930A /* 01.DoCatchTryThrowsView.swift in Sources */,
+				D1EE89722AA1949E008C3A42 /* 07.CheckedContinuationView.swift in Sources */,
 				D1A702D92A9D9ED000D9930A /* ContentView.swift in Sources */,
 				D1C955512AA10C3B008C3014 /* 05.AsyncLetView.swift in Sources */,
 				D122B42A2AA03FEA004CE589 /* 03.AsyncAwaitView.swift in Sources */,
 				D1C9554F2AA10257008C3014 /* 04.TaskView.swift in Sources */,
+				D17752182AA30003004CAC90 /* 08.ActorView.swift in Sources */,
 				D1A702D72A9D9ED000D9930A /* SwiftConcurrencyBootcampApp.swift in Sources */,
 				D122B4282AA03482004CE589 /* 02.DownloadImageAsyncView.swift in Sources */,
 			);
